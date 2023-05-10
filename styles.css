@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0d1a2d;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #15273f;
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0);
+    padding: 18px;
+    box-shadow: 0px 30px 20px 15px #000000;
+}
+
+.image-equilibrium .img {
+    border-radius: 5px;
+}
+
+.card-content-1 h4 {
+    color: white;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card-content-1 p {
+    color: #667b9d;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.card-content-2 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.651);
+}
+
+.card-content-2 p {
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.content-1 {
+    display: flex;
+    align-items: center;
+    color: #00fff8;
+}
+
+.content-2 {
+    display: flex;
+    align-items: center;
+    color: #667b9d;
+    margin-top: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.card-content-3 {
+    display: flex;
+    color: #667b9d;
+    margin-top: 1rem;
+}
+
+.card-content-3 p {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    margin-left: 0.5rem;
+}
+
+.card-content-3 b {
+    color: rgba(255, 255, 255, 0.604);
+}
+
+.card-content-3 img {
+    width: 14%;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 50%;
+}
